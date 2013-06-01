@@ -1,0 +1,348 @@
+ Project Name:  Spint2 
+Test Case 
+
+
+
+
+
+Test Case ID: SP_0	Test Designed by: Sona Ojha
+Test Priority (Low/Medium/High): Med	Test Designed date: <Date>
+Module Name: Create Category	Test Executed by: <Name>
+Test Title: User should able to login into system	Test Execution date: <Date>
+Description: User should be login into system by correct  user name and password.	
+	
+	
+Pre-conditions: User should be validated to login into system
+Dependencies: 
+
+
+Step	Test Steps	Test Data	Expected Result	Actual Result	Status (Pass/Fail)	Notes
+1	
+	User : admin
+	
+User should be able to login	 
+User is navigated to Create category	 
+Pass	 
+2	 Provide valid username	 Password: ofbiz		 		
+3	 Provide valid password			 		
+4	 Click on Login button					
+						
+
+Post-conditions: 
+	User is validated with database and successfully login to account. 
+		
+
+Test Case ID: SP_1	Test Designed by: Sona Ojha
+Test Priority (Low/Medium/High): Med	Test Designed date: <Date>
+Module Name: Create Category	Test Executed by: <Name>
+Test Title: Create New Category	Test Execution date: <Date>
+Description: Create new category	
+	
+	
+Pre-condition: Create New Category
+Dependencies: 
+
+
+Step	Test Steps	Test Data	Expected Result	Actual Result	Status (Pass/Fail)	Notes
+1	
+Enter the link in the browser shopmaxbackend.ofbizdemo.com/catalog
+Product category ID
+	
+Category will be created and shown in edit mode	 
+Categrory is created and data is shown in edit mode	 
+Pass	 
+2	 Enter correct user name and passowrd	 Product category Type: catalog		 		
+3	 Click on  Create New Category	Product name: sona		 		
+4	 Click on submit button					
+						
+
+Post-conditions: 
+	New category is created show in edit mode
+																																								
+
+
+
+
+
+Test Case ID: SP_2	Test Designed by: Sona Ojha
+Test Priority (Low/Medium/High): Med	Test Designed date: <Date>
+Module Name: Add Roll up in New category	Test Executed by: <Name>
+Test Title: Add Roll up in new category	Test Execution date: <Date>
+Description: Add Roll up in New Category	
+	
+	
+Pre-condition: New category should be created
+Dependencies: 
+
+
+Step	Test Steps	Test Data	Expected Result	Actual Result	Status (Pass/Fail)	Notes
+1	
+Enter the link in the browser shopmaxbackend.ofbizdemo.com/catalog
+.
+Add Parent category: 
+SHOPMAX_BROWSE_ROOT	New category should be added in parent category	 New category should be added in parent category	 
+Pass	 
+2	Click on menu Roll up	Curent date		 		
+3	Click on add button			 		
+						
+						
+
+Post-conditions: 
+	New category is created  is added in parent category
+																																								
+
+
+
+
+
+
+Test Case ID: SP_3	Test Designed by: Sona Ojha
+Test Priority (Low/Medium/High): Med	Test Designed date: <Date>
+Module Name. Create Category	Test Executed by: <Name>
+Test Title: .New category should be added in left panel	Test Execution date: <Date>
+Description: .New category should be added in left panel	
+	
+	
+Pre-condition: New category should be created
+Dependencies: 
+
+
+Step	Test Steps	Test Data	Expected Result	Actual Result	Status (Pass/Fail)	Notes
+1	
+Enter the link in the browser . shopmax.ofbizdemo.com	No test  data
+	Newly created category  should be displayed	 Created category is not displayed in left panel	 
+Fail	 
+				 		
+				 		
+						
+						
+
+Post-conditions: 
+	New category is created  category should be displayed in left panel
+																																								
+
+
+
+
+Test Case ID: SP_4	Test Designed by: Sona Ojha
+Test Priority (Low/Medium/High): Med	Test Designed date: <Date>
+Module Name. Upload product (without advanced options)	Test Executed by: <Name>
+Test Title: Upload product in new created category	Test Execution date: <Date>
+Description: Upload product in new created Category	
+	
+	
+Pre-condition: Upload product
+Dependencies: 
+
+
+Step	Test Steps	Test Data	Expected Result	Actual Result	Status (Pass/Fail)	Notes
+1	 Enter in this link : shopmaxseller.ofbizdemo.com/shop	Input  all the information of the product except “Advanced options”
+	Product should  be added in category	 It is not added in newly created category	 
+Fail	 
+2	Click on text login  Email Address DemoSeller password : ofbiz			 		
+3	Click on  text upload product			 		
+4	Click On submit					
+						
+
+Post-conditions: Upload product should be added in newly created categroy
+																																								
+
+
+
+
+
+
+
+
+
+
+
+Test Case ID: SP_5	Test Designed by: Sona Ojha
+Test Priority (Low/Medium/High): Med	Test Designed date: <Date>
+Module Name.Create Buyer	Test Executed by: <Name>
+Test Title: Create Buyer	Test Execution date: <Date>
+Description: 	
+	
+	
+Pre-condition: Create Buyer
+Dependencies: 
+
+
+Step	Test Steps	Test Data	Expected Result	Actual Result	Status (Pass/Fail)	Notes
+1	Enter in this link : shopmax.ofbizdemo.com	Input User_Information
+	.User should be created	 User is created	 Pass	 
+2	Click on Register Text	Pasword (more than 5 characters)		 		
+3	Don’t check registered business user check box			 		
+4						
+						
+
+Post-conditions: Buyer user is created
+																																								
+
+
+
+
+
+
+
+
+
+Test Case ID: SP_5	Test Designed by: Sona Ojha
+Test Priority (Low/Medium/High): Med	Test Designed date: <Date>
+Module Name.Create seller	Test Executed by: <Name>
+Test Title: Create Seller	Test Execution date: <Date>
+Description: 	
+	
+	
+Pre-condition: Create Seller
+Dependencies: 
+
+
+Step	Test Steps	Test Data	Expected Result	Actual Result	Status (Pass/Fail)	Notes
+1	Enter in this link : shopmax.ofbizdemo.com	Input User_Information
+	.User should be created	 User is created	 Pass	 
+2	Click on Register Text	Pasword (more than 5 characters)		 		
+3	. check registered business user check box	Create a free 		 		
+4		Use card no: 4111-1111-1111-1111				
+      5	 Click on submit button					
+
+Post-conditions: .Seller  user is created
+																																								
+
+
+
+
+
+
+
+
+
+
+
+
+Test Case ID: SP_6	Test Designed by: Sona Ojha
+Test Priority (Low/Medium/High): Med	Test Designed date: <Date>
+Module Name. Aprove seller	Test Executed by: <Name>
+Test Title: Aprove Seller	Test Execution date: <Date>
+Description: 	
+	
+	
+Pre-condition: Aprove seller
+Dependencies: 
+
+
+Step	Test Steps	Test Data	Expected Result	Actual Result	Status (Pass/Fail)	Notes
+1	 Enter in this link : shopmaxbackend.ofbizdemo.com/partymgr/control/approvalseller	Enter user Name : admin
+Password : ofbiz
+	Value is created in free domain	 Value created in free domain	 Pass	 
+2	Enter user name and password			 		
+3	Click on approve button			 		
+4						
+      5	 					
+
+Post-conditions: Value is created in free domain
+																		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Test Case ID: SP_4	Test Designed by: Sona Ojha
+Test Priority (Low/Medium/High): Med	Test Designed date: <Date>
+Module Name. Upload product (without advanced options)	Test Executed by: <Name>
+Test Title: Upload product in new created category	Test Execution date: <Date>
+Description: Upload product in new created Category	
+	
+	
+Pre-condition: Upload product
+Dependencies: 
+
+
+Step	Test Steps	Test Data	Expected Result	Actual Result	Status (Pass/Fail)	Notes
+1	
+Enter the link in the browser . shopmax.ofbizdemo.com	No test  data
+	Newly created category  should be displayed	 Created category is not displayed in left panel	 
+Fail	 
+				 		
+				 		
+						
+						
+
+Post-conditions: 
+	New category is created  category should be displayed in left panel
+																																								
+
+
+
+
+
+
+
+
+
+
